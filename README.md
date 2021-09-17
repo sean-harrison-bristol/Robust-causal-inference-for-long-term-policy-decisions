@@ -1,30 +1,21 @@
 # Robust-causal-inference-for-long-term-policy-decisions
 Repository for the paper entitled: Robust causal inference for long-term policy decisions: cost effectiveness of interventions for obesity using Mendelian randomization
 
-This repository contains the manuscript, tables, figures and supplementary information. Upon acceptance of publication, this repository will be updated to include all code used in this study.
+This repository contains the original manuscript, tables, figures, supplementary information and complete analysis code (top level), and the accepted paper and all additional files (in the folder).
 
 Abstract for the study:
 
-Objectives: To estimate the cost-effectiveness of interventions to reduce body mass index (BMI) using Mendelian randomization. 
+Background: The prevalence of obesity has increased in the United Kingdom, and reliably measuring the impact on quality of life and the total healthcare cost from obesity is key to informing the cost-effectiveness of interventions that target obesity, and determining healthcare funding. Current methods for estimating cost-effectiveness of interventions for obesity may be subject to confounding and reverse causation. The aim of this study is to apply a new approach using mendelian randomisation for estimating the cost-effectiveness of interventions that target body mass index (BMI), which may be less affected by confounding and reverse causation than previous approaches.
 
-Design: We estimated the causal effect of differences in BMI on quality-adjusted life years (QALYs) and total healthcare costs using Mendelian randomization and applied our results to estimate the cost effectiveness of BMI interventions (bariatric surgery and restricting volume promotions for high fat, sugar, and salt products), the increase in cost from increasing obesity rates over time, and the total cost of obesity in England and Wales.
+Methods and findings: We estimated health-related quality-adjusted life years (QALYs) and both primary and secondary healthcare costs for 310,913 men and women of white British ancestry aged between 39 and 72 years in UK Biobank between recruitment (2006 to 2010) and 31 March 2017. We then estimated the causal effect of differences in BMI on QALYs and total healthcare costs using mendelian randomisation. For this, we used instrumental variable regression with a polygenic risk score (PRS) for BMI, derived using a genome-wide association study (GWAS) of BMI, with age, sex, recruitment centre, and 40 genetic principal components as covariables to estimate the effect of a unit increase in BMI on QALYs and total healthcare costs. Finally, we used simulations to estimate the likely effect on BMI of policy relevant interventions for BMI, then used the mendelian randomisation estimates to estimate the cost-effectiveness of these interventions.
 
-Setting: UK Biobank.
+A unit increase in BMI decreased QALYs by 0.65% of a QALY (95% confidence interval [CI]: 0.49% to 0.81%) per year and increased annual total healthcare costs by £42.23 (95% CI: £32.95 to £51.51) per person. When considering only health conditions usually considered in previous cost-effectiveness modelling studies (cancer, cardiovascular disease, cerebrovascular disease, and type 2 diabetes), we estimated that a unit increase in BMI decreased QALYs by only 0.16% of a QALY (95% CI: 0.10% to 0.22%) per year.
 
-Participants: 310,913 men and women of white British ancestry aged between 39 and 72 years, followed-up for an average of 8.1 years (6.1 years for secondary care healthcare costs). 
+We estimated that both laparoscopic bariatric surgery among individuals with BMI greater than 35 kg/m2, and restricting volume promotions for high fat, salt, and sugar products, would increase QALYs and decrease total healthcare costs, with net monetary benefits (at £20,000 per QALY) of £13,936 (95% CI: £8,112 to £20,658) per person over 20 years, and £546 million (95% CI: £435 million to £671 million) in total per year, respectively.
 
-Main outcome measures: Predicted average QALYs and total healthcare costs per year, and cost-effectiveness of interventions.
+The main limitations of this approach are that mendelian randomisation relies on assumptions that cannot be proven, including the absence of directional pleiotropy, and that genotypes are independent of confounders.
 
-Results: A unit increase in BMI decreased QALYs by 0.65% of a QALY (95% confidence interval [CI]: 0.49% to 0.81%) per year and increased annual total healthcare costs by £42.23 (95% CI: £32.95 to £51.51) per person. When considering only health conditions usually considered in previous studies (cancer, cardiovascular disease, cerebrovascular disease and type 2 diabetes), we estimated that a unit increase in BMI decreased QALYs by only 0.16% of a QALY (95% CI: 0.10% to 0.22%) per year.
-
-Compared to no intervention and over 20 years, a person in England or Wales aged 40-69 years with a BMI over 35 kg/m2 receiving laparoscopic bariatric surgery would have, on average, an increase of 0.92 QALYs (95% CI: 0.66 to 1.17) and a decrease in total healthcare costs of £5,096 (95% CI: £3,459 to £6,852), with a net monetary benefit (at £20,000 per QALY) of £13,936 (95% CI: £8,112 to £20,658).
-
-Restricting volume promotions for high fat, salt and sugar products would, across the 21.7 million adults aged 40 to 69 years in England and Wales, increase QALYs by 20,551 per year (95% CI: 15,335 to 25,301), decrease total healthcare costs by £137 million per year (95% CI: £106 million to £170 million), with a net monetary benefit (at £20,000 per QALY) of £546 million per year  (95% CI: £435 million to £671 million).
-
-Between 1993 and 2017 in England and Wales, the increase in BMI of people aged 40 to 69 years led to a decrease of 1.13% of a QALY per person per year (95% CI: 0.90% to 1.38%) and an increase in annual healthcare costs of £69 per person (95% CI: £53 to £84). 
-Compared to if all people with a BMI above 25 kg/m2 aged 40 to 69 years in England and Wales in 2017 had a BMI of 25 kg/m2, QALYs are decreased by 580,494 in total per year (95% CI: 457,907 to 717,691) and annual healthcare costs are increased by £3.58 billion (95% CI: £2.75 billion to £4.34 billion).
-
-Conclusions: Mendelian randomization can be used to estimate the impact of interventions on quality of life and healthcare costs. The effect of increasing BMI on health-related quality of life is much larger when accounting for 240 chronic health conditions, compared with only a limited selection.
+Conclusions: Mendelian randomisation can be used to estimate the impact of interventions on quality of life and healthcare costs. We observed that the effect of increasing BMI on health-related quality of life is much larger when accounting for 240 chronic health conditions, compared with only a limited selection. This means that previous cost-effectiveness studies have likely underestimated the effect of BMI on quality of life and, therefore, the potential cost-effectiveness of interventions to reduce BMI.
 
 Funding: Health Foundation.
 
