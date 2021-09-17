@@ -1,7 +1,7 @@
 # Robust-causal-inference-for-long-term-policy-decisions
 Repository for the paper entitled: Robust causal inference for long-term policy decisions: cost effectiveness of interventions for obesity using Mendelian randomization
 
-This repository contains the original manuscript, tables, figures, supplementary information and complete analysis code (top level), and the accepted paper and all additional files (in the "Published_version" folder). The code is the same in both the top level and "Published_version" folder.
+This repository contains the original manuscript, tables, figures, supplementary information and complete analysis code (top level), and the accepted paper and all additional files (in the "Published_version" folder). The code is the same in both the top level and "Published_version" folder. SOrry that the supplementary tables and text are all in separate files - that is the journal's policy.
 
 Abstract for the study:
 
